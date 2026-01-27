@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: none;
+}
+#container{
+    min-width: none;
+    height: 100vh;
+    border-radius: 8px;
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    padding: 12px;
+}
+#left-container{
+    margin:4px;
+    flex: 1;     
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+#right-container{
+    flex: 1;    
+    display: none;
+    background-image: url('./assets/foto-home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+#header-title{
+    font-size: 30px;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+}
+#subtitle-page{
+    margin-bottom: 1rem;
+    
+}
+#welcome-text{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+#login-text{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+main{
+    min-width: none;
+}
+#hey-text{
+    font-size: 20px;
+}
+#btn-login{
+    margin-top: 0rem;
+    height: 45px;
+    width: 107px;
+    border-radius: 8px;
+    border: solid black;
+    background-color: #7a7af9;
+    color: white;
+    font-weight: 600;
+
+}
+#acount-text{
+    color:#7a7af9
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+#login-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 68px;
+}
+
+@media (min-width: 600px){
+    #right-container {
+        display: block;       
+        
+        
+    }
+    #container{
+        width: 90vw;
+        height: 100vh;
+        
+    }
+   body{
+    height: 100vh;
+   }  
+   main{
+    width: 70%;
+   } 
+   #subtitle-login{
+        display:flex;
+   }
+    
+}
+
+
