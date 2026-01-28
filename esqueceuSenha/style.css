@@ -120,6 +120,12 @@ main{
     margin: 3rem;
     
 }
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 @media (min-width: 600px){
