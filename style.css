@@ -5,6 +5,7 @@
 }
 
 body{
+    margin: 0;
     background-color:#eaeaea;
     display: flex;
     justify-content: center;
@@ -31,7 +32,7 @@ body{
 #right-container{
     flex: 1;    
     display: none;
-    background-image: url('./assets/foto-home.png');
+    background-image: url('./assets/logo2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,6 +57,7 @@ body{
     font-size: 2rem;
 }
 #login-text{
+    color: #7a7af9;
     margin-bottom: 1rem;
     font-size: 1rem;
 
@@ -78,19 +80,35 @@ main{
 
 }
 #acount-text{
-    color:#7a7af9
+
+    color: #7a7af9;
 }
 footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 8px;
+}
+#copy{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    color: #acacac;
+    cursor: pointer;
+    text-decoration: none;
 }
 #login-container{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 68px;
+}
+#copy-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+    flex-direction: column;
+    
 }
 
 @media (min-width: 600px){

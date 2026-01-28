@@ -1,24 +1,25 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
-
-    
+    box-sizing: border-box;  
     
     
 }
 
 body{
-    background-color: #eaeaea;
+    
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: none;
+    min-height: none;
+    
     
 }
 #container{
-    min-width: none;
+    
     min-height: 100vh;
+    min-width: 90vw;
     border-radius: 8px;
     background-color: white;
     flex-direction: row;
@@ -88,6 +89,11 @@ main{
     font-weight: 600;
 
 }
+#cont{
+    color:#7a7af9;
+    cursor:pointer;
+    text-decoration: none;
+}
 #signUp{
     color:#acacac;
     cursor:pointer;
@@ -105,34 +111,40 @@ main{
     justify-content: space-between
 }
 
-#rodape-text{
-    
+#rodape-text{ 
+
     color:#acacac;
     cursor:pointer;
     text-decoration: none;
     text-align: center;
+    margin: 3rem;
     
 }
 
+
 @media (min-width: 600px){
-    #right-container {
-        display: block;       
-        
-        
+    body{
+        background-color:#eaeaea;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
     }
     #container{
-        width: 90vh;
+        width: 90vw;
         height: 100vh;
-        
     }
-   body{
-    width:100vh;
-   }  
-   main{
-    width: 70%;
-   } 
-   #subtitle-login{
-        display:flex;
-   }
+    main{
+        width: 70%;
+    }
+    #right-container{
+        display: block;
+    }
+    #rodape-text{
+        margin: 11rem;
+    }
     
 }
+
+

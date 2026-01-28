@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #eaeaea;
+    background-color:#eaeaea;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body{
 }
 
 #container{
-    min-width: none;
+    min-width: 90vw;
     min-height: 100vh;
     border-radius: 8px;
     background-color: white;
@@ -147,7 +147,7 @@ main{
         
     }
    body{
-    width:100vh;
+    height: 100vh;
    }  
    main{
     width: 70%;
