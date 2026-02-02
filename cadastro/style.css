@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color:#eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: none;
+}
+#container{
+    width: 100vh;
+    height: 100vh;
+    border-radius: 8px;
+    background-color: white;
+    flex-direction: row;    
+    padding: 12px;
+    margin: 12px;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+}
