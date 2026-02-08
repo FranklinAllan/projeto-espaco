@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#container-principal{
+    width: none;
+    height: 100vh;    
+    border-radius: 8px;
+    background-color:aqua;
+    display: flex;
+    flex-direction: row;
+
+}
+#left-container{
+    flex:1;
+    display: flex;
+    width: 113vw;
+    height: 106vh;
+    border-radius: 8px;
+    background-color:white;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 4px;
+    background-color: white;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;    
+    width: 25rem;
+    height: 5rem;
+    margin: 10px;
+    gap: 14px;
+    background-color: white;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    background-color: white
+}
+#h2{
+    font-size: 22px;
+    text-align: center;
+}
+#resumo-compras{
+    display: flex;
+    flex-direction: column;
+    height: 72vh;
+    border: solid 1vh;
+    border-radius: 13px;
+}
+#dados-compras{
+    height: 36vh;
+    font-size: 4vh;
+    margin: 2vh;
+    border: solid 4px;
+    border-radius: 10px;
+}
+#dados-comprador{
+    height: 36vh;
+    font-size: 4vh;
+    margin: 2vh;
+    border: solid 4px;
+    border-radius: 10px;
+}
+footer{
+    height: 4rem;
+    width: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border: solid 4px;
+    border-radius: 9px;
+    margin-left: 21px;
+}
+
+
+#rigth-container{
+    flex: 1;    
+    display: none;
+    width: 100vw;
+    height: 99vh;
+    border-radius: 8px;
+    background-image: url("../../assets/logo2.jpg");
+   
+}
+
+
+@media  (min-width:600px){
+    #container-principal{
+        width: 100vw;
+        height: 100vh; 
+
+    }
+    #left-container{
+        height: 98vh;
+    }
+    #rigth-container{
+        display: block;
+    }
+    footer{
+        height: 10vh;
+        width: 49vw;
+        margin-top: 6px;
+        margin-left: auto;
+    }
+
+
+}

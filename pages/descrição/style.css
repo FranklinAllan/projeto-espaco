@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container{
+    width: 90vw;
+    height: 50rem;
+    border-radius: 8px;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    padding: 12px;
+    margin:12px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
+}
+#container-principal{
+    margin:4px;        
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;    
+    border-radius: 8px;
+    flex-wrap: wrap;
+    
+}
+#header-title{
+    font-size: 30px;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background-color:white;
+    width: 34vh;
+    height: 5vh;
+    flex:1;
+
+}
+#main-conatainer{
+    display: flex;    
+    gap: 8px;
+    background-color:white;
+    width: 80vw;
+    height: 45rem;    
+    border-radius: 8px;
+    background-image: none;
+    
+    
+}
+
+#descrição{
+    
+    font-size: 18px;
+   
+}
+#descrição-preço{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(0, 174, 255);
+    margin: 24px;
+
+
+}
+#btn-comprar{   
+
+    margin-top: 0rem;
+    height: 45px;
+    width: 107px;
+    border-radius: 8px;
+    border: solid black;
+    background-color: #7a7af9;
+    color: white;
+    font-weight: 600;
+}
+h2{
+    font-size: 35px;
+}
+#preço{
+    font-size: 30px;
+}
+p{
+    text-align: justify;
+}
+#data{
+    color:red;
+    font-size: 24px;
+}
+#imagen-marte{
+    background-image: none;
+}
+footer{
+    flex:1;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media  (min-width: 600px ){
+    #container{
+        max-width: 82vw;
+    }
+
+    #container-principal{
+        margin: 4px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 8px;
+        flex-wrap: wrap;
+        
+    }
+    #main-conatainer{
+        
+        background-image: url('../../assets/planeta-marte.jpg');
+    }
+    h2{
+        color: wheat;
+        font-size: 35px;
+        text-align: center;
+    }
+    p{
+        color: white;
+        text-align: justify;
+    }
+    #descrição{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 12px;
+        flex-wrap: nowrap;
+    }
+
+    #descrição-preço {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        color: rgb(0, 174, 255);
+        margin: 24px;
+        flex-wrap: nowrap;
+    }
+  
+    
+
+}
+    
+    
+       
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
