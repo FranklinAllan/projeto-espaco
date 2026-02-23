@@ -35,6 +35,7 @@ body{
     background-color: white;
 }
 #header-container{
+    flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,6 +48,7 @@ body{
     background-color: white;
 }
 #main{
+    flex: 1;
     display: flex;
     flex-direction: column;
     background-color: white
@@ -56,27 +58,32 @@ body{
     text-align: center;
 }
 #resumo-compras{
+    width: 39vh;
     display: flex;
     flex-direction: column;
-    height: 72vh;
-    border: solid 1vh;
+    height: 71vh;
+    border: solid 4px;
     border-radius: 13px;
 }
 #dados-compras{
-    height: 36vh;
-    font-size: 4vh;
+    width: 34vh;
+    height: 26vh;
+    font-size: 19px;
     margin: 2vh;
     border: solid 4px;
     border-radius: 10px;
 }
 #dados-comprador{
-    height: 36vh;
-    font-size: 4vh;
+    width: 34vh;
+    height: 26vh;
+    font-size: 21px;
     margin: 2vh;
     border: solid 4px;
     border-radius: 10px;
+    
 }
 footer{
+    flex: 1;
     height: 4rem;
     width: 24rem;
     display: flex;
@@ -87,7 +94,7 @@ footer{
     flex-direction: column;
     border: solid 4px;
     border-radius: 9px;
-    margin-left: 21px;
+    
 }
 
 
@@ -106,6 +113,9 @@ footer{
         border-radius: 8px;
         margin: 1px;
 } 
+h2{
+    text-align: center;
+}
 
 
 
